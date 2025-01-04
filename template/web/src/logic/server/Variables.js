@@ -1,1 +1,1 @@
-const API_URL = "https://jonesenglishschool.netlify.app/"
+const API_URL = "https://nicks-test-telegram-app.netlify.app/"
