@@ -12,7 +12,8 @@ export const sendMessageToServer = async (message, queryId) => {
         message: message
     }
 
-    const messagesEndpoint = `${API_URL}/messages`
+    const messagesEndpoint = `https://nicks-test-telegram-app.netlify.app/messages`
+    console.log(messagesEndpoint);
     return await fetch(messagesEndpoint, {
         method: 'POST',
         headers: {
