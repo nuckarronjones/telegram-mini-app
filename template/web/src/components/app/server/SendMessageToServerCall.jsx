@@ -27,7 +27,7 @@ const SendMessageToServerCall = () => {
         <TelegramMiniForm
             fieldlabel={'/messages'}
             fielddescription={
-                'This endpoint is used to send messages to the bot server using a REST API. ' +
+                'This endpoint will be used to send messages to the bot server using a REST API. ' +
                 'The bot will receive the message and echo it in the chat'
             }
             fieldhint={`Enter a message`}
